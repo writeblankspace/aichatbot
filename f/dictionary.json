@@ -1,0 +1,29 @@
+{
+	"hello": ["hello", "hi", "hey", "heyo", "ayo", "yo", "hewo"],
+	"bye": ["bye", "goodbye", "see ya", "later", "cya", "cya later", "bye bye"],
+	"thanks": ["thanks", "thank you", "thank you very much", "thanks very much", "thanks a lot", "thank you a lot", "ty", "tnx", "tysm"],
+
+	"yes": ["yes", "yea", "yeah", "ye", "ya", "mhm", "yep", "uh-huh"],
+	"no": ["no", "nope", "nah", "naw", "naww", "nyah", "nope", "na"],
+
+	"meh": ["...", "-_-", ":/", "meh", "eh"],
+	"ok": ["ok", "k", "okay", "'kay", "right", "aight", "alr", "alright"],
+	"oh": ["o", "oh"],
+	"maybe": ["maybe", "may be", "mayb", "might be", "mightb", "mb", "myb", "ig", "i suppose"],
+	"idk": ["dunno", "idk", "dk"],
+	"tbh": ["tbh", "to be honest", "honestly", "rilly", "really"],
+
+	"you": ["you", "u"],
+	"are": ["are", "r"],
+
+	"annoyed_prefix": ["istg", "urgh", "ahhh", "eh"],
+	"annoyed_suffix": ["-_-", ":/"],
+
+	"thinking_prefix": ["hmm", "uh", "er", "uhm", ":/", "eh"],
+	"thinking_suffix": ["...", "..", ":/", "hmm"],
+
+	"certainty": ["duh", "ofc", "of course", "definitely", "def", "obv", "obviously"],
+
+	"reactions": ["bruh", "oop", "lol", "rip", "omg", "wtf", "wth", "wut", "wut?", "i-", "omg", "omi-", "woah", "wow"],
+	"surprise": ["i-", "what-", "omi-", "omi", "wth-", "what", ":O"]
+}
