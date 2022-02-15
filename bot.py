@@ -14,6 +14,7 @@ OWNERS = os.getenv('OWNERS').split(", ")
 # import cogs
 initial_extensions = [
 	"jishaku",
+	"cogs.ai"
 ]
 
 # rich presence
