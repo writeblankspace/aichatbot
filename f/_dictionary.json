@@ -1,0 +1,58 @@
+{
+	"synonyms": [
+
+		["hello", "hi", "hey", "heyo", "ayo", "yo", "hewo"],
+		["bye", "goodbye", "see ya", "later", "cya", "cya later", "bye bye"],
+		["thanks", "thank you", "thank you very much", "thanks very much", "thanks a lot", "thank you a lot", "ty", "tnx", "tysm"],
+
+		["yes", "yea", "yeah", "ye", "ya", "mhm", "yep", "uh-huh"],
+		["no", "nope", "nah", "naw", "naww", "nyah", "nope", "na"],
+
+		["ok", "k", "okay", "'kay", "right", "aight", "alr", "alright"],
+		["o", "oh"],
+
+		["dunno", "idk", "dk", "no idea", "wha -"]
+
+		["maybe", "@_append.idk"],
+		["tbh", "@_append.tbh"],
+
+		["you", "u"],
+		["are", "r"]
+	
+	],
+	
+
+	"_append": {
+
+		"tbh": ["tbh", "to be honest", "honestly", "rilly", "really"],
+
+		"meh": ["-_-", ":/"],
+		"meh_prefix": ["meh", "eh"],
+		"meh_suffix": ["..."],
+
+		"happy": [":)", ":D", ":P", ":3", "B)", "=D", 
+			"ayoo", "yay", "omg", "ahh",
+			"o_o", "ovo", ":>"],
+		"happy_prefix": [],
+		"happy_suffix": [],
+
+		"annoyed": ["-_-", ":/"],
+		"annoyed_prefix": ["istg", "urgh", "ahhh", "eh"],
+		"annoyed_suffix": [],
+		
+		"thinking": ["hmm", ":/", "eh"],
+		"thinking_prefix": ["uh", "er", "uhm"],
+		"thinking_suffix": ["...", ".."],
+
+		"certainty": ["duh", "ofc", "of course", "definitely", "def", "obv", "obviously"],
+
+		"uncertainty": ["maybe", "may be", "mayb", "mightb", "mb", "myb", "ig", "i suppose", "perhaps", "probably", "prolly"],
+
+		"reactions": ["bruh", "oop", "lol", "rip", "omg", "wth", "wut", "omi-", ";-;",
+			"ok", "k", "B)"],
+		"reactions_prefix": ["omg", "i-", "omi-", "woah"],
+			
+		"surprise": ["i-", "what-", "omi-", "omi", "wth-", "what", ":O"]
+
+	}
+}
