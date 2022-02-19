@@ -7,11 +7,10 @@
 
 		["yes", "yea", "yeah", "ye", "ya", "mhm", "yep", "uh-huh"],
 		["no", "nope", "nah", "naw", "naww", "nyah", "nope", "na"],
+		["dunno", "idk", "dk", "no idea", "wha -"],
 
 		["ok", "k", "okay", "'kay", "right", "aight", "alr", "alright"],
 		["o", "oh"],
-
-		["dunno", "idk", "dk", "no idea", "wha -"]
 
 		["maybe", "@_append.idk"],
 		["tbh", "@_append.tbh"],

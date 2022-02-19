@@ -1,4 +1,4 @@
-def handle_references(obj):
+def handle_references(d: dict, obj):
 	""" Handles references in strings to other parts of the dict 
 	e.g. "@_expressions.happy would be replaced with the value of that part of the dict 
 	Returns a list of strings
