@@ -5,6 +5,7 @@ from f.cooldown import cooldown_cmd
 from f.build_msg import build_msg, Reply_Bias
 from f._dict import d, search_synonyms
 from f.funcs import *
+import asyncio
 
 synonyms = d["synonyms"]
 
@@ -72,18 +73,22 @@ class ai(commands.Cog):
 						]
 						response = random.choice(responses)
 				else:
-					responses = [
-						"well how did you know I was lurking",
-						"hey how are you",
-						"👀",
-						"shut up"
-					]
-					response = random.choice(responses)
+					if randint(1, 5) == 1:
+						responses = [
+							"well how did you know I was lurking",
+							"hey how are you",
+							"👀",
+							"shut up"
+						]
+						response = random.choice(responses)
+					else:
+						response = None
 				
 				# build the message
 				if response != None:
 					response = build_msg(response)
-
+					# wait random amount of time
+					await asyncio.sleep(randint(1, 3))
 					await msg.reply(response)
 		
 
