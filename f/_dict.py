@@ -41,8 +41,8 @@ d["_append"]["all_suffixes"] = all_suffixes
 
 # search for the synonym list
 # e.g. if you want a list of synonyms for 'hi'
-def search_synonyms(word: str):
-	for i in d["synonyms"]:
+def search_synonyms(word: str, synonyms: list = d["synonyms"]):
+	for i in synonyms:
 		if word in i:
 			hi_synonyms = i
 			break

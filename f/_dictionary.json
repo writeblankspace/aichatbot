@@ -14,10 +14,19 @@
 
 		["maybe", "@_append.idk"],
 		["tbh", "@_append.tbh"],
+		["meh", "@_append.meh", "@_append.meh_prefix", "@_append.meh_suffix"],
 
 		["you", "u"],
 		["are", "r"]
 	
+	],
+
+	"questions": [
+		"am", "are", "is", "was", "were", "will", "should", "would", "could",
+		"aren't", "isn't", "wasn't", "weren't", "won't", "shouldn't", "wouldn't", "couldn't",
+		"do", "does", "did", "has", "have", "had",
+		"don't", "doesn't", "didn't", "hasn't", "haven't", "hadn't",
+		"can", "can't", "cannot"
 	],
 	
 

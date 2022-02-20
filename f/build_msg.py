@@ -9,11 +9,12 @@ randint = random.randint
 
 # adds bias to the message. The response can be either good or bad, or neutral
 # this isn't useful... yet
-class Bias:
-	def __init__(self, good: int = 1, bad: int = 1, neutral: int = 1):
+class Reply_Bias:
+	def __init__(self, good: int = 1, bad: int = 1, neutral: int = 1, meh: int = 1):
 		self.good = good
 		self.bad = bad
 		self.neutral = neutral
+		self.meh = meh
 		self.outcome = self.find_outcome()
 	
 	def find_outcome(self):
@@ -24,6 +25,8 @@ class Bias:
 			outcomelist.append("bad")
 		for i in range(self.neutral):
 			outcomelist.append("neutral")
+		for i in range(self.meh):
+			outcomelist.append("meh")
 		
 		return random.choice(outcomelist)
 
