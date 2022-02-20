@@ -77,8 +77,9 @@ class ai(commands.Cog):
 						responses = [
 							"well how did you know I was lurking",
 							"hey how are you",
-							"👀",
-							"shut up"
+							"B)",
+							"hey",
+							"yes ? I'm listening."
 						]
 						response = random.choice(responses)
 					else:

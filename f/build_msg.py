@@ -106,7 +106,7 @@ def build_msg(msg, use_append: bool = True, use_synonyms: bool = True, synonyms:
 
 	joined = " ".join(new_msg)
 	# remove spaces before punctuation
-	for i in [".", ",", "!", "?", ";", ":", "-"]:
+	for i in [".", ",", "!", "?"]:
 		joined = joined.replace(f" {i}", f"{i}")
 
 	return joined
