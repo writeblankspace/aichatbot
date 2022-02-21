@@ -19,7 +19,6 @@ initial_extensions = [
 
 # rich presence
 activity = discord.Activity(
-	# TODO change the status every so often
 	name="100 commits to GitHub? Sure, why not? Meanwhile this bot commits suicide from bugs.",
 	type=discord.ActivityType.watching
 )
