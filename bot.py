@@ -20,7 +20,7 @@ initial_extensions = [
 # rich presence
 activity = discord.Activity(
 	name="100 commits to GitHub? Sure, why not? Meanwhile this bot commits suicide from bugs.",
-	type=discord.ActivityType.watching
+	type=discord.ActivityType.playing
 )
 
 # Discord Intents settings
