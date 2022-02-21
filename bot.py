@@ -20,8 +20,8 @@ initial_extensions = [
 # rich presence
 activity = discord.Activity(
 	# TODO change the status every so often
-	name="If the story's over, why am I still writing pages?",
-	type=discord.ActivityType.listening
+	name="100 commits to GitHub? Sure, why not? Meanwhile this bot commits suicide from bugs.",
+	type=discord.ActivityType.watching
 )
 
 # Discord Intents settings
@@ -32,7 +32,7 @@ intents.presences = True
 bot = commands.Bot(
 	command_prefix=["c:", "c: "],
 	activity=activity,
-	status=discord.Status.idle,
+	status=discord.Status.online,
 	afk=False,
 	intents=intents,
 	strip_after_prefix=True,
