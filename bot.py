@@ -29,6 +29,7 @@ intents.members = True
 intents.presences = True
 
 bot = commands.Bot(
+	help_command=None,
 	command_prefix=["c:", "c: "],
 	activity=activity,
 	status=discord.Status.online,
@@ -52,6 +53,17 @@ async def on_ready():
 	randcode = random.randint(1000000, 9999999)
 	print(f'{bot.user} has connected to Discord! [{randcode}]')
 	print(f'Successfully logged in and booted...!')
+
+@bot.command(
+	name="help",
+)
+async def help(ctx):
+	await ctx.send(
+		embed=discord.Embed(
+			title="How to use this bot",
+			description="https://github.com/writeblankspace/aichatbot/wiki",
+		)
+	)
 
 # run the bot
 keep_alive()
